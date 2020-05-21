@@ -1,0 +1,422 @@
+EESchema Schematic File Version 5
+EELAYER 33 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 2700 4200
+Connection ~ 5200 3500
+Connection ~ 5500 3500
+Connection ~ 6900 3500
+Wire Wire Line
+	2700 4100 2700 4200
+Wire Wire Line
+	2700 4200 2700 4300
+Wire Wire Line
+	2700 4200 3100 4200
+Wire Wire Line
+	3000 3500 3200 3500
+Wire Wire Line
+	3000 3700 3200 3700
+Wire Wire Line
+	3000 3800 3200 3800
+Wire Wire Line
+	3100 3900 3000 3900
+Wire Wire Line
+	3100 4200 3100 3900
+Wire Wire Line
+	3200 3500 3200 3100
+Wire Wire Line
+	3400 3700 3600 3700
+Wire Wire Line
+	3400 3800 3600 3800
+Wire Wire Line
+	5000 3500 5200 3500
+Wire Wire Line
+	5200 3400 5200 3500
+Wire Wire Line
+	5200 3500 5200 3700
+Wire Wire Line
+	5200 3500 5500 3500
+Wire Wire Line
+	5200 3900 5200 4000
+Wire Wire Line
+	5500 3500 5500 3600
+Wire Wire Line
+	5500 3500 5600 3500
+Wire Wire Line
+	5600 3600 5500 3600
+Wire Wire Line
+	6000 3900 6000 4000
+Wire Wire Line
+	6400 3500 6900 3500
+Wire Wire Line
+	6400 3600 6600 3600
+Wire Wire Line
+	6600 3600 6600 3700
+Wire Wire Line
+	6600 3900 6600 4000
+Wire Wire Line
+	6900 3400 6900 3500
+Wire Wire Line
+	6900 3500 6900 3700
+Wire Wire Line
+	6900 3500 7100 3500
+Wire Wire Line
+	6900 3900 6900 4000
+Wire Wire Line
+	7600 3500 7600 3600
+Wire Wire Line
+	7600 3800 7600 3900
+Wire Wire Line
+	7900 3500 7900 3600
+Wire Wire Line
+	7900 3800 7900 3900
+Wire Wire Line
+	8200 3500 8200 3600
+Wire Wire Line
+	8200 3800 8200 3900
+Wire Wire Line
+	8500 3500 8500 3600
+Wire Wire Line
+	8500 3800 8500 3900
+Wire Notes Line
+	2300 2700 2300 4600
+Wire Notes Line
+	2300 2700 3800 2700
+Wire Notes Line
+	3800 2700 3800 4600
+Wire Notes Line
+	3800 4600 2300 4600
+Wire Notes Line
+	4700 2700 4700 4600
+Wire Notes Line
+	4700 2700 8800 2700
+Wire Notes Line
+	8800 2700 8800 4600
+Wire Notes Line
+	8800 4600 4700 4600
+Text Notes 2600 2900 2    50   ~ 10
+USB
+Text Notes 5200 2900 2    50   ~ 10
+3.3V  LDO\n
+Text HLabel 3600 3700 2    50   Input ~ 0
+D+
+Text HLabel 3600 3800 2    50   Input ~ 0
+D-
+Text HLabel 5000 3500 0    50   Input ~ 0
+5V
+Text HLabel 7100 3500 2    50   Input ~ 0
+3V3
+$Comp
+L power:+5V #PWR?
+U 1 1 5ED10056
+P 3200 3100
+F 0 "#PWR?" H 3200 2950 50  0001 C CNN
+F 1 "+5V" H 3250 3300 50  0000 C CNN
+F 2 "" H 3200 3100 50  0001 C CNN
+F 3 "" H 3200 3100 50  0001 C CNN
+	1    3200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5ED103D4
+P 5200 3400
+F 0 "#PWR?" H 5200 3250 50  0001 C CNN
+F 1 "+5V" H 5250 3600 50  0000 C CNN
+F 2 "" H 5200 3400 50  0001 C CNN
+F 3 "" H 5200 3400 50  0001 C CNN
+	1    5200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5ED1AE91
+P 6900 3400
+F 0 "#PWR?" H 6900 3250 50  0001 C CNN
+F 1 "+3.3V" H 6950 3600 50  0000 C CNN
+F 2 "" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5ED1E31A
+P 7600 3500
+F 0 "#PWR?" H 7600 3350 50  0001 C CNN
+F 1 "+3.3V" H 7650 3700 50  0000 C CNN
+F 2 "" H 7600 3500 50  0001 C CNN
+F 3 "" H 7600 3500 50  0001 C CNN
+	1    7600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5ED20B8C
+P 7900 3500
+F 0 "#PWR?" H 7900 3350 50  0001 C CNN
+F 1 "+3.3V" H 7950 3700 50  0000 C CNN
+F 2 "" H 7900 3500 50  0001 C CNN
+F 3 "" H 7900 3500 50  0001 C CNN
+	1    7900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5ED21C61
+P 8200 3500
+F 0 "#PWR?" H 8200 3350 50  0001 C CNN
+F 1 "+3.3V" H 8250 3700 50  0000 C CNN
+F 2 "" H 8200 3500 50  0001 C CNN
+F 3 "" H 8200 3500 50  0001 C CNN
+	1    8200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5ED22C40
+P 8500 3500
+F 0 "#PWR?" H 8500 3350 50  0001 C CNN
+F 1 "+3.3V" H 8550 3700 50  0000 C CNN
+F 2 "" H 8500 3500 50  0001 C CNN
+F 3 "" H 8500 3500 50  0001 C CNN
+	1    8500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED0DF98
+P 2700 4300
+F 0 "#PWR?" H 2700 4050 50  0001 C CNN
+F 1 "GND" H 2700 4100 50  0000 C CNN
+F 2 "" H 2700 4300 50  0001 C CNN
+F 3 "" H 2700 4300 50  0001 C CNN
+	1    2700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED13E53
+P 5200 4000
+F 0 "#PWR?" H 5200 3750 50  0001 C CNN
+F 1 "GND" H 5200 3800 50  0000 C CNN
+F 2 "" H 5200 4000 50  0001 C CNN
+F 3 "" H 5200 4000 50  0001 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED158F5
+P 6000 4000
+F 0 "#PWR?" H 6000 3750 50  0001 C CNN
+F 1 "GND" H 6000 3800 50  0000 C CNN
+F 2 "" H 6000 4000 50  0001 C CNN
+F 3 "" H 6000 4000 50  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED169FF
+P 6600 4000
+F 0 "#PWR?" H 6600 3750 50  0001 C CNN
+F 1 "GND" H 6600 3800 50  0000 C CNN
+F 2 "" H 6600 4000 50  0001 C CNN
+F 3 "" H 6600 4000 50  0001 C CNN
+	1    6600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED19B23
+P 6900 4000
+F 0 "#PWR?" H 6900 3750 50  0001 C CNN
+F 1 "GND" H 6900 3800 50  0000 C CNN
+F 2 "" H 6900 4000 50  0001 C CNN
+F 3 "" H 6900 4000 50  0001 C CNN
+	1    6900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED1E2FC
+P 7600 3900
+F 0 "#PWR?" H 7600 3650 50  0001 C CNN
+F 1 "GND" H 7600 3700 50  0000 C CNN
+F 2 "" H 7600 3900 50  0001 C CNN
+F 3 "" H 7600 3900 50  0001 C CNN
+	1    7600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED20B98
+P 7900 3900
+F 0 "#PWR?" H 7900 3650 50  0001 C CNN
+F 1 "GND" H 7900 3700 50  0000 C CNN
+F 2 "" H 7900 3900 50  0001 C CNN
+F 3 "" H 7900 3900 50  0001 C CNN
+	1    7900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED21C6D
+P 8200 3900
+F 0 "#PWR?" H 8200 3650 50  0001 C CNN
+F 1 "GND" H 8200 3700 50  0000 C CNN
+F 2 "" H 8200 3900 50  0001 C CNN
+F 3 "" H 8200 3900 50  0001 C CNN
+	1    8200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED22C4C
+P 8500 3900
+F 0 "#PWR?" H 8500 3650 50  0001 C CNN
+F 1 "GND" H 8500 3700 50  0000 C CNN
+F 2 "" H 8500 3900 50  0001 C CNN
+F 3 "" H 8500 3900 50  0001 C CNN
+	1    8500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5ED0E453
+P 3300 3700
+F 0 "R?" V 3400 3700 50  0000 C CNN
+F 1 "R" V 3400 3600 50  0000 C CNN
+F 2 "" H 3300 3700 50  0001 C CNN
+F 3 "~" H 3300 3700 50  0001 C CNN
+	1    3300 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5ED0F70E
+P 3300 3800
+F 0 "R?" V 3400 3800 50  0000 C CNN
+F 1 "R" V 3400 3700 50  0000 C CNN
+F 2 "" H 3300 3800 50  0001 C CNN
+F 3 "~" H 3300 3800 50  0001 C CNN
+	1    3300 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED11753
+P 5200 3800
+F 0 "C?" H 5300 3800 50  0000 L CNN
+F 1 "C" H 5300 3700 50  0000 L CNN
+F 2 "" H 5200 3800 50  0001 C CNN
+F 3 "~" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED169F0
+P 6600 3800
+F 0 "C?" H 6700 3800 50  0000 L CNN
+F 1 "C" H 6700 3700 50  0000 L CNN
+F 2 "" H 6600 3800 50  0001 C CNN
+F 3 "~" H 6600 3800 50  0001 C CNN
+	1    6600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED19B14
+P 6900 3800
+F 0 "C?" H 7000 3800 50  0000 L CNN
+F 1 "C" H 7000 3700 50  0000 L CNN
+F 2 "" H 6900 3800 50  0001 C CNN
+F 3 "~" H 6900 3800 50  0001 C CNN
+	1    6900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED1E30A
+P 7600 3700
+F 0 "C?" H 7700 3700 50  0000 L CNN
+F 1 "C" H 7700 3600 50  0000 L CNN
+F 2 "" H 7600 3700 50  0001 C CNN
+F 3 "~" H 7600 3700 50  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED20BA4
+P 7900 3700
+F 0 "C?" H 8000 3700 50  0000 L CNN
+F 1 "C" H 8000 3600 50  0000 L CNN
+F 2 "" H 7900 3700 50  0001 C CNN
+F 3 "~" H 7900 3700 50  0001 C CNN
+	1    7900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED21C79
+P 8200 3700
+F 0 "C?" H 8300 3700 50  0000 L CNN
+F 1 "C" H 8300 3600 50  0000 L CNN
+F 2 "" H 8200 3700 50  0001 C CNN
+F 3 "~" H 8200 3700 50  0001 C CNN
+	1    8200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5ED22C58
+P 8500 3700
+F 0 "C?" H 8600 3700 50  0000 L CNN
+F 1 "C" H 8600 3600 50  0000 L CNN
+F 2 "" H 8500 3700 50  0001 C CNN
+F 3 "~" H 8500 3700 50  0001 C CNN
+	1    8500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Mini J?
+U 1 1 5ED0DBE6
+P 2700 3700
+F 0 "J?" H 2800 4200 50  0000 C CNN
+F 1 "USB_B_Mini" H 2800 4100 50  0000 C CNN
+F 2 "" H 2850 3650 50  0001 C CNN
+F 3 "~" H 2850 3650 50  0001 C CNN
+	1    2700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LP2985-3.3 U?
+U 1 1 5ED15308
+P 6000 3600
+F 0 "U?" H 6000 4000 50  0000 C CNN
+F 1 "LP2985-3.3" H 6000 3900 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6000 3925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 6000 3600 50  0001 C CNN
+	1    6000 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
