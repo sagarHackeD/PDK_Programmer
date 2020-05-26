@@ -1,4 +1,4 @@
-update=Fri May 22 17:52:09 2020
+update=Mon May 25 20:59:25 2020
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [SchematicFrame]
 version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005ec7bc1d:
+1=00000000-0000-0000-0000-00005ecbc0d0:
 2=00000000-0000-0000-0000-00005ed2c793:BOOST_CONVERTER
 3=00000000-0000-0000-0000-00005ed6a515:PROGRAMMING_VOLTAGE
 4=00000000-0000-0000-0000-00005ed4d0e4:PROGRAM_PINS
@@ -44,6 +44,7 @@ RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 CopperEdgeClearance=0.01
 TrackWidth1=0.25
+TrackWidth2=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -230,11 +231,11 @@ Enabled=1
 [pcbnew/Layer.Edge.Cuts]
 Enabled=1
 [pcbnew/Layer.Margin]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.CrtYd]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Fab]
 Enabled=0
 [pcbnew/Layer.F.Fab]
